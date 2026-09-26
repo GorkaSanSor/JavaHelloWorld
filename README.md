@@ -12,8 +12,8 @@ A continuación se detalla la estructura del proyecto guardada en la carpeta `sr
 | Módulo / Archivo | Conceptos Clave Aprendidos | Ejercicios Prácticos |
 | :--- | :--- | :---: |
 | **`c00_helloworld.HelloWorld`** | Primer programa en Java, método `main`, salida por consola con `System.out.println()`. | `c00_helloworld.HelloWorldExercises` |
-| **`c00_helloworld.VariablesAndConstants`** | Declaración e inicialización de variables, uso de `final` para constantes, ámbitos de variable. | — |
-| **`c00_helloworld.DataTypes`** | Tipos primitivos (`int`, `double`, `boolean`, `char`, `byte`, `long`, `float`) vs referencias. | — |
+| **`c01_beginner.VariablesAndConstants`** | Declaración e inicialización de variables, uso de `final` para constantes, ámbitos de variable. | — |
+| **`c01_beginner.DataTypes`** | Tipos primitivos (`int`, `double`, `boolean`, `char`, `byte`, `long`, `float`) vs referencias. | — |
 | **`c02_operators.Operators`** | Operadores aritméticos (`+`, `-`, `*`, `/`, `%`), de asignación, incrementales/decrementales y lógicos (`&&`, `\|\|`, `!`). | `c02_operators.OperatorsExercises` |
 | **`c03_strings.Strings`** | Clase `String`, concatenación, métodos principales (`length()`, `equals()`, `substring()`, `toLowerCase()`, etc.). | `c03_strings.StringExercises` |
 | **`c01_beginner.BeginnerExercises`** | Ejercicios combinados de repaso general y lógica inicial. | — |

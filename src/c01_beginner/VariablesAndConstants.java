@@ -1,4 +1,4 @@
-package c00_helloworld;
+package c01_beginner;
 
 public class VariablesAndConstants {
     public static void main(String[] args){
