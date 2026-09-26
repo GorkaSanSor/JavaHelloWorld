@@ -1,3 +1,5 @@
+package c00_helloworld;
+
 public class VariablesAndConstants {
     public static void main(String[] args){
 

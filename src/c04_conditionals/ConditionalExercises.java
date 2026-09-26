@@ -1,3 +1,4 @@
+package c04_conditionals;
 
 import java.util.Scanner;
 public class ConditionalExercises {

@@ -1,4 +1,4 @@
-/* Comentario
+package c00_helloworld;/* Comentario
 de varias
 lineas*/
 

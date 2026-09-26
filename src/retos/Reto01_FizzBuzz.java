@@ -1,4 +1,4 @@
-/*
+package retos;/*
  * Escribe un programa que muestre por consola (con un print) los
  * números de 1 a 100 (ambos incluidos y con un salto de línea entre
  * cada impresión), sustituyendo los siguientes:
@@ -7,7 +7,7 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 
-public class RetoFizzBuzz {
+public class Reto01_FizzBuzz {
     public static void main(String[] args){
 
             for(int count = 1; count <= 100; count++){
