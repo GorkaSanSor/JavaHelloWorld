@@ -15,7 +15,7 @@ La estructura del código fuente está alojada en la carpeta `src/`, organizada 
 | **`c02_operators`** | `Operators.java` | Operadores aritméticos, asignación, incrementales/decrementales, relacionales y lógicos (`&&`, `||`, `!`). | `OperatorsExercises.java` |
 | **`c03_strings`** | `Strings.java` | Clase `String`, inmutabilidad, concatenación y métodos esenciales (`length()`, `equals()`, `substring()`, `toLowerCase()`, etc.). | `StringExercises.java` |
 | **`c04_conditionals`** | `Conditionals.java` | Control de flujo condicional con `if`, `else if`, `else`, operador ternario y estructuras `switch`. | `ConditionalExercises.java` |
-| **`retos`** | `Reto01_FizzBuzz.java` | Aplicación de lógica algorítmica, divisibilidad y condicionales para resolver el clásico problema *FizzBuzz*. | — |
+| **`retos`** | `Reto01_FizzBuzz.java` | Aplicación de lógica algorítmica, divisibilidad y condicionales para resolver el clásico problema *FizzBuzz*. | `Reto01_FizzBuzz.java` |
 
 ---
 
