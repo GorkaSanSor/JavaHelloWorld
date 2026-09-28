@@ -1,22 +1,31 @@
-[readme.md](https://github.com/user-attachments/files/32667692/readme.md)
 # ☕ Java Basic Concepts — Portfolio & Learning Path
 
-¡Bienvenido a mi repositorio de aprendizaje de Java! Este proyecto contiene todos los conceptos fundamentales, sintaxis básica y ejercicios prácticos que voy desarrollando durante mi formación en el ciclo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
+¡Bienvenido a mi repositorio de aprendizaje de Java! Este proyecto contiene los conceptos fundamentales, sintaxis básica, ejercicios de consolidación y retos de lógica que voy desarrollando durante mi formación en el ciclo de **Desarrollo de Aplicaciones Multiplataforma (DAM)**.
 
 ---
 
-## 📚 Índice de Conocimientos y Archivos
+## 📚 Índice de Conocimientos y Estructura
 
-A continuación se detalla la estructura del proyecto guardada en la carpeta `src/`, organizada por temas clave:
+La estructura del código fuente está alojada en la carpeta `src/`, organizada modularmente en paquetes temáticos para facilitar su navegación y mantenimiento:
 
-| Módulo / Archivo | Conceptos Clave Aprendidos | Ejercicios Prácticos |
-| :--- | :--- | :---: |
-| **`c00_helloworld.HelloWorld`** | Primer programa en Java, método `main`, salida por consola con `System.out.println()`. | `c00_helloworld.HelloWorldExercises` |
-| **`c01_beginner.VariablesAndConstants`** | Declaración e inicialización de variables, uso de `final` para constantes, ámbitos de variable. | — |
-| **`c01_beginner.DataTypes`** | Tipos primitivos (`int`, `double`, `boolean`, `char`, `byte`, `long`, `float`) vs referencias. | — |
-| **`c02_operators.Operators`** | Operadores aritméticos (`+`, `-`, `*`, `/`, `%`), de asignación, incrementales/decrementales y lógicos (`&&`, `\|\|`, `!`). | `c02_operators.OperatorsExercises` |
-| **`c03_strings.Strings`** | Clase `String`, concatenación, métodos principales (`length()`, `equals()`, `substring()`, `toLowerCase()`, etc.). | `c03_strings.StringExercises` |
-| **`c01_beginner.BeginnerExercises`** | Ejercicios combinados de repaso general y lógica inicial. | — |
+| Módulo / Paquete | Archivo(s) Principal(es) | Conceptos Clave Aprendidos | Ejercicios y Retos |
+| :--- | :--- | :--- | :---: |
+| **`c00_helloworld`** | `HelloWorld.java` | Primer programa en Java, método de entrada `main`, salida por consola con `System.out.println()`. | `HelloWorldExercises.java` |
+| **`c01_beginner`** | `VariablesAndConstants.java`<br>`DataTypes.java` | Declaración e inicialización de variables, uso de `final` para constantes, tipos de datos primitivos (`int`, `double`, `boolean`, `char`, etc.) vs. referencias. | `BeginnerExercises.java` |
+| **`c02_operators`** | `Operators.java` | Operadores aritméticos, asignación, incrementales/decrementales, relacionales y lógicos (`&&`, `||`, `!`). | `OperatorsExercises.java` |
+| **`c03_strings`** | `Strings.java` | Clase `String`, inmutabilidad, concatenación y métodos esenciales (`length()`, `equals()`, `substring()`, `toLowerCase()`, etc.). | `StringExercises.java` |
+| **`c04_conditionals`** | `Conditionals.java` | Control de flujo condicional con `if`, `else if`, `else`, operador ternario y estructuras `switch`. | `ConditionalExercises.java` |
+| **`retos`** | `Reto01_FizzBuzz.java` | Aplicación de lógica algorítmica, divisibilidad y condicionales para resolver el clásico problema *FizzBuzz*. | — |
+
+---
+
+## 🚀 Metodología de Aprendizaje
+
+Para asegurar la asimilación teórica y práctica de cada concepto, sigo un flujo de trabajo estructurado en tres pasos por paquete:
+
+1. **Teoría y Sintaxis (`[Concepto].java`):** Explicación y prueba de conceptos básicos directamente en el código.
+2. **Consolidación (`[Concepto]Exercises.java`):** Resolución de ejercicios prácticos guiados para afianzar el tema.
+3. **Desafíos y Lógica (`retos/`):** Resolución de problemas de lógica y algoritmos de entrevistas de programación (como *FizzBuzz*) combinando múltiples módulos aprendidos.
 
 ---
 
@@ -24,10 +33,12 @@ A continuación se detalla la estructura del proyecto guardada en la carpeta `sr
 
 - [x] Configuración del entorno de desarrollo (**IntelliJ IDEA** & **JDK**).
 - [x] Control de versiones e integración con **Git / GitHub**.
-- [x] Sintaxis básica y declaración de variables.
-- [x] Manipulación de datos y cadenas de texto.
-- [ ] Control de flujo (`if-else`, `switch`, bucles `for`/`while`). *(Próximamente)*
-- [ ] Programación Orientada a Objetos (Clases, Objetos, Herencia). *(Próximamente)*
+- [x] Sintaxis básica, declaración de variables y tipos de datos.
+- [x] Operadores aritméticos, lógicos y relacionales.
+- [x] Manipulación de cadenas de texto (`String`).
+- [x] Control de flujo condicional (`if-else`, `switch`).
+- [ ] Bucles e iteraciones (`for`, `while`, `do-while`). *(Próximamente)*
+- [ ] Programación Orientada a Objetos (Clases, Objetos, Encapsulamiento, Herencia). *(Próximamente)*
 
 ---
 
@@ -39,4 +50,4 @@ A continuación se detalla la estructura del proyecto guardada en la carpeta `sr
 * **Entorno:** Windows 11
 
 ---
-*Desarrollado por [GorkaSanSor](https://github.com/GorkaSanSor)*
+*Desarrollado con dedicación por [GorkaSanSor](https://github.com/GorkaSanSor)*
