@@ -7,7 +7,7 @@ package retos;/*
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 
-public class Reto01_FizzBuzz {
+public class Reto00_FizzBuzz {
     public static void main(String[] args){
 
             for(int count = 1; count <= 100; count++){
