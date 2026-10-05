@@ -29,6 +29,7 @@ public class LoopsExercises {
                 System.out.println(num);
             }
         }
+
         // 4. Recorre un Array de 5 números e imprime la suma total.
         int [] numArray = {1, 2, 3, 4, 5};
         int sum = 0;
@@ -57,10 +58,12 @@ public class LoopsExercises {
         for (Integer number: myHashSet) {
             System.out.println(number);
         }
+
         // 7. Imprime los números del 10 al 1 (descendiente) con un bucle for.
         for (int num = 10; num > 0; num--) {
             System.out.println(num);
         }
+
         // 8. Usa continue para saltar los múltiplos de 3 del 1 al 20.
         System.out.print("Los números del 1 al 20 (menos los múltiplos de 3) son: ");
         for (int num = 1; num <= 20; num++) {
@@ -85,6 +88,7 @@ public class LoopsExercises {
             }
         }
         System.out.println();
+
         // 10. Crea un programa que calcule el factorial de un número dado.
         Scanner scan = new Scanner(System.in);
 
