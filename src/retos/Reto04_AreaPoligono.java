@@ -30,7 +30,7 @@ public class Reto04_AreaPoligono {
         double base = scanner.nextInt();
 
         System.out.println("Introduce el tamaño de la altura:");
-        double altura = scanner.nextInt();º
+        double altura = scanner.nextInt();
 
         if (esTriangulo == 1) {
             area = (base * altura) / 2;
